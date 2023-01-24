@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:wght@400;500;700;800&display=swap');
+
+h1, h2, h3 {
+    font-family: 'EB Garamond', serif;
+}
+
+.btn-primary {
+    background: #B68C5A;
+    border-color: #B68C5A;
+}
+
+.btn-primary:hover {
+    background-color: #be843d;
+    border-color: #be843d;
+}
+
+.card {
+    border: none;
+    border-radius: none;
+    background: transparent;
+}
+
+.card-img-overlay {
+    top: 25%;
+    left: 30%;
+    transform: translate(-25%, -30%);
+    text-align: center;
+}
+
+.card-title {
+    font-size: 32px;
+    font-weight: 500;
+}
+
+.card-text {
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.card-arrow-icon {
+    display: block;
+    margin: 0 auto;
+}
+
+.card-center {
+    background: linear-gradient(180deg, #F3F3F3 0%, rgba(243, 243, 243, 0) 100%);
+}
+
+.client-img {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    margin-bottom: 24px;
+}
+
+footer {
+    background: #111;
+    padding: 60px 0;
+    color: #fff;
+}
+
+.fa-paper-plane {
+    background: #B68C5A;
+    padding: 11px;
+    border-radius: 6px;
+    overflow: hidden;
+}
+
+@media only screen and (min-width: 577px) {
+    .card-img-overlay {
+        top: 50%;
+        left: 50%;
+        max-width: 692px;
+        transform: translate(-50%, -50%);
+        text-align: center;
+    }    
+
+    .card-title {
+        font-size: 48px;
+        font-weight: 700;
+    }
+    
+    .carousel-caption {
+        top: 27%;
+    }
+
+    footer {
+        padding: 120px 0;
+    }
+    
+}
